@@ -3,7 +3,8 @@
  */
 
 $enable-font-awesome: dynamic(true);
-
+$panel-header-background-gradient : dynamic(color-stops(#96aecf, #eef1f7));
+$panel-tool-search-icon : dynamic("$fa-search");
 
 .x-panel-header-title-default > .x-title-text-default:after {
     font-family: ext-watermark;
@@ -14,4 +15,6 @@ $enable-font-awesome: dynamic(true);
     right: 0;
     color: #7b9eca;
 }
-$panel-header-background-gradient : dynamic(color-stops(#96aecf, #eef1f7));
+
+#SurgeryInfoPanel > .x-panel-header { border-radius: 10px 10px 0px 0px }
+

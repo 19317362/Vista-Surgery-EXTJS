@@ -1,4 +1,4 @@
-/* D:/WebRoot/htdocs/sencha/App2/01 VistA/sass/var/all.scss:8 */
+/* D:/WebRoot/htdocs/sencha/App2/01 VistA/sass/var/all.scss:9 */
 .x-panel-header-title-default > .x-title-text-default:after {
     font-family: ext-watermark;
     font-size: 0!important;
@@ -7,6 +7,10 @@
     top: 0;
     right: 0;
     color: #7b9eca;
+}
+/* D:/WebRoot/htdocs/sencha/App2/01 VistA/sass/var/all.scss:19 */
+#SurgeryInfoPanel > .x-panel-header {
+    border-radius: 10px 10px 0px 0px;
 }
 /* D:/WebRoot/htdocs/sencha/App2/01 VistA/ext/packages/core/sass/src/util/SizeMonitor.scss:5 */
 .x-size-monitored {
@@ -16668,8 +16672,4 @@ div.x-border-layout-ct {
 /* D:/WebRoot/htdocs/sencha/App2/01 VistA/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1895 */
 .x-tab-default-bottom.x-tab-rotate-left {
     margin: 0 2px 0 0;
-}
-/* D:/WebRoot/htdocs/sencha/App2/01 VistA/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1899 */
-.x-tab-default-bottom.x-tab-rotate-left.x-rtl {
-    margin: 0 0 0 2px;
 }
