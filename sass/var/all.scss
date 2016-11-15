@@ -1,0 +1,17 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+
+$enable-font-awesome: dynamic(true);
+
+
+.x-panel-header-title-default > .x-title-text-default:after {
+    font-family: ext-watermark;
+    font-size: 0!important;
+    content: ''!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #7b9eca;
+}
+$panel-header-background-gradient : dynamic(color-stops(#96aecf, #eef1f7));
